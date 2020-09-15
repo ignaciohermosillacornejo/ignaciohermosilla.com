@@ -1,2 +1,2 @@
 # ignaciohermosilla.com
-Main webpage for personal website
+Main webpage for personal website, pending content still
