@@ -1,4 +1,15 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+
+## License
+
+The following directories and their contents are Copyright Ignacio Hermosilla.
+You may not reuse anything therein without my permission:
+
+* \_posts/
+* images/
+
+All other directories and files are MIT Licensed. Feel free to use the HTML and
+CSS as you please. If you do use them, a link back to
+http://github.com/mojombo/jekyll would be appreciated, but is not required.
 
 # Jekyll Now
 
