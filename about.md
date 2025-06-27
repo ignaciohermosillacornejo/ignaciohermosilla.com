@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+About me
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm a software engineer from Chile, living in the USA for the last couple of years. I like to write about imigration, taxes, tech industry and more.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[hello@ignaciohermosilla.com](mailto:hello@ignaciohermosilla.com)
