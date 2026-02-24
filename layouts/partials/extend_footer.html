@@ -1,0 +1,22 @@
+<!-- Buttondown Newsletter Subscribe Form -->
+<div class="newsletter-form">
+  <h3>Subscribe to this blog</h3>
+  <p>Get new posts delivered to your inbox. No spam.</p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/{{ .Site.Params.buttondownUsername }}"
+    method="post"
+    class="embeddable-buttondown-form"
+    referrerpolicy="unsafe-url"
+  >
+    <div class="newsletter-input-group">
+      <input
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+      />
+      <input type="hidden" value="1" name="embed" />
+      <button type="submit">Subscribe</button>
+    </div>
+  </form>
+</div>
