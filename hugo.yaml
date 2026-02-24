@@ -3,6 +3,9 @@ title: "Ignacio Hermosilla"
 paginate: 10
 theme: PaperMod
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -24,20 +27,54 @@ taxonomies:
 
 mainsections: ["posts"]
 
-menu:
-  main:
-    - identifier: archives
-      name: Archive
-      url: /archives/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 30
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    title: "Ignacio Hermosilla"
+    params:
+      description: "Software Engineer"
+      homeInfoParams:
+        Title: "Welcome"
+        Content: "I write about software, immigration, and life in the US."
+    menu:
+      main:
+        - identifier: archives
+          name: Archive
+          url: /archives/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 30
+
+  es:
+    languageName: "Español"
+    weight: 2
+    title: "Ignacio Hermosilla"
+    params:
+      description: "Ingeniero de Software"
+      homeInfoParams:
+        Title: "Bienvenido"
+        Content: "Escribo sobre software, inmigración y la vida en Estados Unidos."
+    menu:
+      main:
+        - identifier: archives
+          name: Archivo
+          url: /es/archives/
+          weight: 10
+        - identifier: tags
+          name: Etiquetas
+          url: /es/tags/
+          weight: 20
+        - identifier: search
+          name: Buscar
+          url: /es/search/
+          weight: 30
 
 markup:
   highlight:
@@ -64,7 +101,6 @@ outputFormats:
 params:
   env: production
   title: "Ignacio Hermosilla"
-  description: "Software Engineer"
   keywords: [software, engineering, immigration]
   author: "Ignacio Hermosilla"
 
@@ -88,10 +124,6 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-
-  homeInfoParams:
-    Title: "Welcome"
-    Content: "I write about software, immigration, and life in the US."
 
   socialIcons:
     - name: github

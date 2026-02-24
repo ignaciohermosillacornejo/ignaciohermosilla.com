@@ -1,7 +1,7 @@
 <!-- Buttondown Newsletter Subscribe Form -->
 <div class="newsletter-form">
-  <h3>Subscribe to this blog</h3>
-  <p>Get new posts delivered to your inbox. No spam.</p>
+  <h3>{{ if eq .Lang "es" }}Suscríbete a este blog{{ else }}Subscribe to this blog{{ end }}</h3>
+  <p>{{ if eq .Lang "es" }}Recibe nuevos posts en tu correo. Sin spam.{{ else }}Get new posts delivered to your inbox. No spam.{{ end }}</p>
   <form
     action="https://buttondown.com/api/emails/embed-subscribe/{{ .Site.Params.buttondownUsername }}"
     method="post"
@@ -12,11 +12,12 @@
       <input
         type="email"
         name="email"
-        placeholder="your@email.com"
+        placeholder="{{ if eq .Lang "es" }}tu@email.com{{ else }}your@email.com{{ end }}"
         required
       />
       <input type="hidden" value="1" name="embed" />
-      <button type="submit">Subscribe</button>
+      <input type="hidden" name="tag" value="{{ .Lang }}" />
+      <button type="submit">{{ if eq .Lang "es" }}Suscribirme{{ else }}Subscribe{{ end }}</button>
     </div>
   </form>
 </div>
