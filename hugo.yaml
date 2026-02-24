@@ -104,6 +104,10 @@ params:
   keywords: [software, engineering, immigration]
   author: "Ignacio Hermosilla"
 
+  label:
+    icon: "images/profile.png"
+    iconHeight: 35
+
   DateFormat: "January 2, 2006"
 
   defaultTheme: auto
